@@ -1,0 +1,18 @@
+{
+  "kind": "collectionType",
+  "collectionName": "greetings",
+  "info": {
+    "singularName": "greeting",
+    "pluralName": "greetings",
+    "displayName": "greeting"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "user": {
+      "type": "string"
+    }
+  }
+}

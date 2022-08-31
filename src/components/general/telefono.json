@@ -1,0 +1,16 @@
+{
+  "collectionName": "components_general_telefonos",
+  "info": {
+    "displayName": "telefono",
+    "icon": "tablet-alt"
+  },
+  "options": {},
+  "attributes": {
+    "tipo": {
+      "type": "string"
+    },
+    "numero": {
+      "type": "string"
+    }
+  }
+}

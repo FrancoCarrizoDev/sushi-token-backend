@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_interfaz_redes_sociales",
+  "info": {
+    "displayName": "redesSociales",
+    "icon": "network-wired"
+  },
+  "options": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "url": {
+      "type": "string"
+    },
+    "iframe": {
+      "type": "text"
+    }
+  }
+}

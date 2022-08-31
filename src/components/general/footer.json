@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_general_footers",
+  "info": {
+    "displayName": "footer",
+    "icon": "anchor",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "imagenLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "columnaLinks": {
+      "displayName": "columnaDeLinks",
+      "type": "component",
+      "repeatable": true,
+      "component": "general.columna-de-links"
+    }
+  }
+}

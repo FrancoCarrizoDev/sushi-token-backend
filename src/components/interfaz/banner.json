@@ -1,0 +1,43 @@
+{
+  "collectionName": "components_interfaz_banners",
+  "info": {
+    "displayName": "banner",
+    "icon": "paint-brush",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "descripcion": {
+      "type": "richtext",
+      "required": true
+    },
+    "preTitulo": {
+      "type": "string",
+      "required": true
+    },
+    "titulo": {
+      "type": "string",
+      "required": true
+    },
+    "imagen": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "subDescripcion": {
+      "type": "richtext"
+    },
+    "primerBoton": {
+      "type": "string"
+    },
+    "segundoBoton": {
+      "type": "string"
+    },
+    "descripcionImagen": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "collectionName": "components_general_columna_de_links",
+  "info": {
+    "displayName": "columnaDeLinks",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "titulo": {
+      "type": "string"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.link"
+    }
+  }
+}

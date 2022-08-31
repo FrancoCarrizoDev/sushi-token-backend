@@ -1,0 +1,41 @@
+{
+  "kind": "collectionType",
+  "collectionName": "locales",
+  "info": {
+    "singularName": "local",
+    "pluralName": "locales",
+    "displayName": "Locales",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string"
+    },
+    "direccion": {
+      "type": "string"
+    },
+    "telefono": {
+      "displayName": "telefono",
+      "type": "component",
+      "repeatable": true,
+      "component": "general.telefono"
+    },
+    "imagenes": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "videos"
+      ]
+    },
+    "url": {
+      "type": "uid",
+      "targetField": "nombre"
+    }
+  }
+}

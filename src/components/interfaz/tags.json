@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_interfaz_tags",
+  "info": {
+    "displayName": "tags",
+    "icon": "at"
+  },
+  "options": {},
+  "attributes": {
+    "tag": {
+      "type": "string"
+    }
+  }
+}

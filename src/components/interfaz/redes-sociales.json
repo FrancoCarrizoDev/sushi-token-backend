@@ -2,18 +2,24 @@
   "collectionName": "components_interfaz_redes_sociales",
   "info": {
     "displayName": "redesSociales",
-    "icon": "network-wired"
+    "icon": "network-wired",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "nombre": {
-      "type": "string"
-    },
     "url": {
       "type": "string"
     },
     "iframe": {
       "type": "text"
+    },
+    "nombre": {
+      "type": "enumeration",
+      "enum": [
+        "facebook",
+        "instagram",
+        "twitter"
+      ]
     }
   }
 }

@@ -36,6 +36,21 @@
     "url": {
       "type": "uid",
       "targetField": "nombre"
+    },
+    "redesSociales": {
+      "type": "component",
+      "repeatable": true,
+      "component": "interfaz.redes-sociales"
+    },
+    "descripcion": {
+      "type": "richtext"
+    },
+    "tags": {
+      "displayName": "tags",
+      "type": "component",
+      "repeatable": true,
+      "component": "interfaz.tags",
+      "max": 3
     }
   }
 }

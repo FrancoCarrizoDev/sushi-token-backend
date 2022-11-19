@@ -17,6 +17,15 @@
     },
     "cuerpo": {
       "type": "richtext"
+    },
+    "url": {
+      "type": "uid",
+      "targetField": "titulo"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.seo"
     }
   }
 }

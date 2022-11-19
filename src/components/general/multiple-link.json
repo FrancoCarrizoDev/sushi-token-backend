@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_general_multiple_links",
+  "info": {
+    "displayName": "MultipleLink",
+    "icon": "indent",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "Link": {
+      "type": "component",
+      "repeatable": true,
+      "component": "general.link"
+    },
+    "etiqueta": {
+      "type": "string"
+    }
+  }
+}

@@ -1,8 +1,9 @@
 {
   "collectionName": "components_general_links",
   "info": {
-    "displayName": "link",
-    "icon": "at"
+    "displayName": "simpleLink",
+    "icon": "at",
+    "description": ""
   },
   "options": {},
   "attributes": {
@@ -19,6 +20,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::page.page"
+    },
+    "local": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::local.local"
     }
   }
 }

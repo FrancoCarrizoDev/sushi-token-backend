@@ -24,6 +24,18 @@
       "type": "component",
       "repeatable": false,
       "component": "general.footer"
+    },
+    "SEO": {
+      "type": "component",
+      "repeatable": false,
+      "component": "general.seo"
+    },
+    "listaMenu": {
+      "type": "dynamiczone",
+      "components": [
+        "general.link",
+        "general.multiple-link"
+      ]
     }
   }
 }

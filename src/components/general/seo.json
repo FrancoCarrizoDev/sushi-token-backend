@@ -1,0 +1,20 @@
+{
+  "collectionName": "components_general_seos",
+  "info": {
+    "displayName": "SEO",
+    "icon": "crown",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "keywords": {
+      "type": "text"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}
